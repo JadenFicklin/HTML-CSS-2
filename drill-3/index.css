@@ -1,0 +1,78 @@
+/* <div class="outer">
+<div class="top-gray">
+    <div class="top-blue-box"></div>
+</div>
+<div class="white"></div>
+<div class="blue"></div>
+<div class="green"></div>
+<div class="light-green"></div>
+<div class="yellow"><div class="question-box"></div></div>
+</div> */
+
+body {
+  margin: 0;
+}
+.outer {
+  width: 100%;
+  height: 100vh;
+}
+
+.top-gray {
+  width: 100%;
+  height: 200px;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+}
+.top-blue-box {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(57, 178, 253);
+  margin-left: 50px;
+}
+.white {
+  height: 400px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  width: 90%;
+}
+.blue,
+.green,
+.light-green,
+.yellow {
+  width: 100%;
+  height: 300px;
+}
+.blue {
+  background-color: lightskyblue;
+}
+.green {
+  background-color: lightgreen;
+}
+.light-green {
+  background-color: rgb(197, 238, 144);
+}
+.yellow {
+  background-color: rgb(255, 255, 119);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.question-box {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: black;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
